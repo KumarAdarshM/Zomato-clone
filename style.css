@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    background-image: url(images/imgdownloader.com-20221016030045704263.png);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+}
+.nav-menu{
+    width: 80%;
+    height: 60px;
+}
+.zomato{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 68px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    display: block;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.search-box{
+    width: 774px;
+    height: 54px;
+    border-radius: 10px;
+    border-color: white;
+}
+#second{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-title{
+    overflow: hidden;
+}
+.card-img-top{
+    height: 192px;
+    width: 540px;
+}
+.card-body{
+    overflow: hidden;
+}
+.card{
+    margin: 0;
+    width: 540px;
+    height: 280px;
+    overflow: hidden;
+    border-color: rgb(245, 244, 244);
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#collections{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card1{
+    width: 267.5px;
+    height: 320px;
+}
+.card-img{
+    height: 320px;
+    width: 267.5px;
+}
+.card-img-overlay{
+    padding-top: 260px;
+    overflow: hidden;
+}
+.card-text{
+    overflow: hidden;
+}
+.collect{
+    overflow: hidden;
+}
+#popular-location{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+.txt{
+    overflow: hidden;
+    font-weight: lighter;
+}
+.popular-heading{
+    font-size: 40px;
+    color: black;
+}
+.location-div{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border: 1px solid    #ccc;
+    border-radius: 10px;
+}
+#get-zomato-app{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(234, 241, 130, 0.1);
+}
+.email-input{
+    width:250px;
+    height: 40px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    outline:none;
+    border-radius: 10px;
+    background-color: white;
+}
+.display-4{
+    font-weight: lighter;
+    font-size: 42px;
+    overflow: hidden
+}
+.pic{
+    margin-left: 215px;
+    margin-top: 60px;
+}
+@media only screen and (max-width : 768px) {
+    .location-div{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .card1{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width : 800px) {
+    .card{
+        margin-bottom: 10px;
+    }
+}
+.log{
+    width: 132px;
+    height: 28px;
+}
